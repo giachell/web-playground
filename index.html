@@ -4,33 +4,80 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="main.css">
-    <title>Firt HTML page</title>
+    <title>London info</title>
 </head>
 
 <body>
-    <h1>Welcome!</h1>
+    <h1>London</h1>
     <hr>
-    <p style='color: #e54867'> Hi there! Take a look at the wonderful London Eye! 👇 </p>
+    <p style='color: #CD0002'> Hi there! Take a look at the wonderful London Eye! 👇 </p>
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/London-Eye-2009.JPG/1200px-London-Eye-2009.JPG" alt="London Eye" title="London Eye" />
 
-    <table>
-        <tr>
-            <th>Col 1</th>
-            <th>Col 2</th>
-            <th>Col 3</th>
-            <th>Col 4</th>
-            <th>Col 5</th>
-            <th>Col 6</th>
-        </tr>
+    <!-- Table coming from Wikipedia -->
 
-        <tr>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
-            <td>4</td>
-            <td>5</td>
-            <td>6</td>
-        </tr>
+    <table>
+        <tbody>
+            <tr>
+                <th class="heading" colspan="2">London info</th>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <figure><img alt="London – POI" title="Points of interest – London" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/51/London_Montage_2016.png/178px-London_Montage_2016.png" decoding="async" width="178" height="250">
+                        <figcaption style='text-align: center;'>Points of interest – London </figcaption>
+                    </figure>Some of the most famous monuments and attractions in London (anti-clockwise order): <a href="https://en.wikipedia.org/wiki/Big_Ben" title="Big Ben">Big Ben</a>, <a href="https://en.wikipedia.org/wiki/Tower_Bridge" title="Tower Bridge">Tower Bridge</a>, <a href="https://en.wikipedia.org/wiki/Trafalgar_Square" title="Trafalgar Square">Trafalgar Square</a> together with the <a href="https://en.wikipedia.org/wiki/National_Gallery" title="National Gallery">National Gallery</a>, <a href="https://en.wikipedia.org/wiki/London_Eye" title="London Eye">London Eye</a>, <a href="https://en.wikipedia.org/wiki/Buckingham_Palace" title="Buckingham Palace">Buckingham Palace</a> and <a href="https://en.wikipedia.org/wiki/St_Paul%27s_Cathedral" title="St Paul's Cathedral">St Paul's Cathedral</a>.
+                </td>
+            </tr>
+            <tr>
+                <th colspan="2">Country</th>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <div style="display: flex; justify-content: flex-start;"><a style="width: 120px; padding: 20px;" href="https://en.wikipedia.org/wiki/United_Kingdom" title="United Kingdom">United Kingdom </a><img style="margin-left:10px;" alt="United Kingdom" src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Flag_of_the_United_Kingdom.svg/20px-Flag_of_the_United_Kingdom.svg.png" width="20" height="10">
+                    </div>
+
+                    <div style="display: flex; justify-content: flex-start;"><a style="width: 120px;padding: 20px;" href="https://en.wikipedia.org/wiki/England" title="England">England</a><img style="margin-left:10px;" alt="England" src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Flag_of_England.svg/20px-Flag_of_England.svg.png" decoding="async" width="20" height="12">
+                    </div>
+                </td>
+            </tr>
+            <tr class="sinottico_divisione">
+                <th colspan="2">Territory</th>
+            </tr>
+            <tr>
+                <th style="width:80px;">Coordinates</th>
+                <td>
+                    <div style="font-size: small"><span class="latitude">51°30′26″N</span> <span class="longitude">0°07′39″W</span> (<a href="https://tools.wmflabs.org/geohack/geohack.php?language=en&amp;pagename=London&amp;params=51.507222_N_-0.1275_E_type:adm1st_scale:2500000&amp;title=London" title="Show the map">Map</a>)</div>
+                </td>
+            </tr>
+            <tr>
+                <th style="width:80px;">Elevation</th>
+                <td>24&nbsp;m</td>
+            </tr>
+            <tr>
+                <th style="width:80px;">Area</th>
+                <td>1&nbsp;572,15 km² </td>
+            </tr>
+            <tr>
+                <th style="width:80px;">Population</th>
+                <td>8&nbsp;799&nbsp;800<sup id="cite_ref-template_divisione_amministrativa-abitanti_1-0" class="reference"><a href="#cite_note-template_divisione_amministrativa-abitanti-1">[1]</a></sup> <small>(2021)</small>
+                </td>
+            </tr>
+            <tr>
+                <th style="width:80px;">Density</th>
+                <td>5&nbsp;597,3 pop./km²</td>
+            </tr>
+
+            <tr class="sinottico_divisione">
+                <th colspan="2">Cartography</th>
+            </tr>
+
+            <tr>
+                <td class="sinottico_testo_centrale" colspan="2">
+                    <figure><a href="https://en.wikipedia.org/wiki/File:Greater_London_UK_locator_map_2010.svg" title="London – Map"><img alt="London – Map" src="//upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Greater_London_UK_locator_map_2010.svg/206px-Greater_London_UK_locator_map_2010.svg.png" width="206" height="250"></a>
+                        <figcaption style="text-align: center;">London highlighted in red in the Map</figcaption>
+                    </figure>
+                </td>
+            </tr>
+        </tbody>
     </table>
 
     <!-- This is a comment (you cannot see it in the web browser, unless you inspect the page 😉 -->

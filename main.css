@@ -22,7 +22,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: green;
+    color: #00247D;
     font-weight: 600;
     line-height: 1.3;
     padding: 0px;
@@ -68,8 +68,11 @@ img {
     }
 }
 
-table,
-th,
+
+th {
+    background-color: #e6ecff;
+}
+
 td {
     border: 1px solid;
     border-collapse: collapse;
